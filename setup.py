@@ -4,5 +4,5 @@ from setuptools import setup
 setup(
     name='pre_commit_dummy_package',
     version='0.0.0',
-    install_requires=['pyspelling==0.2a4'],
+    install_requires=['pyspelling==1.0b1'],
 )
