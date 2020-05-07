@@ -1,0 +1,8 @@
+-   id: pyspelling
+    name: pyspelling
+    entry: pyspelling
+    language: python
+    'files': \.(md|txt)$
+    args: []
+    require_serial: false
+    additional_dependencies: []
