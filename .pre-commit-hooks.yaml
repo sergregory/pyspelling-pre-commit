@@ -2,7 +2,5 @@
     name: pyspelling
     entry: pyspelling
     language: python
-    'files': \.(md|txt)$
-    args: []
-    require_serial: false
+    args: [-S]
     additional_dependencies: []
