@@ -4,6 +4,10 @@ import argparse
 from pyspelling import spellcheck, __version__
 
 
+def entrypoint():
+    sys.exit(main())
+
+
 def main():
     """Main."""
 
@@ -77,7 +81,3 @@ def run(config, **kwargs):
         print('Spelling check passed :)')
 
     return fail
-
-
-if __name__ == "__main__":
-    sys.exit(main())

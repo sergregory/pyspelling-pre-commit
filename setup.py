@@ -2,8 +2,10 @@ from setuptools import setup
 
 
 setup(
-    name='pre_commit_dummy_package',
+    name='mirrors-pyspelling-for-pre-commit',
     version='0.0.0',
     install_requires=['pyspelling==2.6'],
-    scripts=['wraps_pyspelling.py']
+    entry_points = {
+        'console_scripts': ['wraps_pyspelling=wraps_pyspelling:entrypoint'],
+    }
 )
