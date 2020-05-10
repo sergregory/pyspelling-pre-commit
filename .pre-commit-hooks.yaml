@@ -1,8 +1,6 @@
 -   id: pyspelling
     name: pyspelling
-    entry: pyspelling
+    entry: wraps_pyspelling
     language: python
-    'files': \.(md|txt)$
-    args: []
-    require_serial: false
+    args: [-S]
     additional_dependencies: []
